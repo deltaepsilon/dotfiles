@@ -25,13 +25,22 @@ silent !stty -ixon
 " Restore default behaviour when leaving Vim.
 autocmd VimLeave * silent !stty ixon
 
+" Theming
+syntax enable
+let g:solarized_termcolors=256
+set background=dark
+colorscheme solarized
 
 " Nerdtree
 map <C-E> :NERDTreeToggle<CR>
 
+let NERDTreeShowHidden=1
+
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
+" Vim Markdown
+let g:vim_markdown_folding_disabled=1 
 
 " Personal settings
 set number
