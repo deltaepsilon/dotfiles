@@ -21,14 +21,19 @@ make
 ```
 
 ## Command-T
-- Open file search: <kbd>\</kbd><kbd>t</kbd>
+- Open file search: <kbd>\\</kbd><kbd>t</kbd>
+- See [Command-T docs](yarn global add instant-markdown-d)
 
 ## NERDTree
 - Toggle open/close: <kbd>control</kbd><kbd>e</kbd>
 
 ## Prettier
 - Install globally: `yarn global add prettier`
-- Format document: <kbd>\</kbd><kbd>p</kbd>
+- Format document: <kbd>\\</kbd><kbd>p</kbd>
+
+## Markdown
+- Install globally: `yarn global add instant-markdown-d`
+-
 
 ## Window management
 - Split window vertically: `cmd+wv`
