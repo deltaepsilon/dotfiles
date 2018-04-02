@@ -5,9 +5,10 @@ Muh dotfiles!
 Configuring a new environment is awesome... almost as much fun as actually getting work done.
 
 ## Installation
--i Clone [dotfiles](https://github.com/deltaepsilon/dotfiles) to `~/dotfiles`
+- Clone [dotfiles](https://github.com/deltaepsilon/dotfiles) to `~/dotfiles`
 - Run `cd ~/dotfiles && ./setup.sh` to symlink dotfiles to user root
 - Install [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh)
+- Consider using this [tmux config](https://github.com/gpakosz/.tmux)
 
 ## Configure vundle
 Run `vundle` to update vundle to the current config. This installs all plugins.
