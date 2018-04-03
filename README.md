@@ -7,6 +7,7 @@ Configuring a new environment is awesome... almost as much fun as actually getti
 ## Installation
 - Clone [dotfiles](https://github.com/deltaepsilon/dotfiles) to `~/dotfiles`
 - Run `cd ~/dotfiles && ./setup.sh` to symlink dotfiles to user root
+- Edit line 5 of ~/.zshrc so that `/Users/quiver/` matches your user's path. For instance, it could be `export ZSH=/home/chris/.oh-my-zsh`
 - Install [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh)
 - Consider using this [tmux config](https://github.com/gpakosz/.tmux)
 
