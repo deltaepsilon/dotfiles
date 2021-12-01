@@ -1,9 +1,17 @@
 [alias]
-	co = checkout
-	br = branch
-	ci = commit
-	st = status
-	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+        co = checkout
+        br = branch
+        ci = commit
+        st = status
+        lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+        nuke = !git branch | grep -v \"master\" | xargs git branch -D
+        upstream = !git push -u origin HEAD
+        new = co -b
+        remove = br -D
 [user]
-	email = chris-esplin@pluralsight.com
-	name = Chris Esplin
+        email = chris@chrisesplin.com
+        name = Chris Esplin
+[credential]
+        helper = cache
+[core]
+        editor = vim

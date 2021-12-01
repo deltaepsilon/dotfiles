@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dotfiles=(".vimrc" ".zshrc" ".gitconfig" ".npmrc" ".yarnrc" ".tmux.conf.local")
+dotfiles=(".zshrc" ".gitconfig")
 dir="${HOME}/dotfiles"
 
 for dotfile in "${dotfiles[@]}";do
